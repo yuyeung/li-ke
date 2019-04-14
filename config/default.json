@@ -1,0 +1,18 @@
+{
+  "Database": {
+    "host": "localhost",
+    "name": "class",
+    "user": "root",
+    "password": "root",
+    "dialect": "mysql"
+  },
+  "WEB": {
+    "port": 3000,
+    "account": "root",
+    "password": "root"
+  },
+  "JWT": {
+    "secret": "hhh",
+    "lifetime": "2h"
+  }
+}

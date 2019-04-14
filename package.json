@@ -1,0 +1,34 @@
+{
+  "name": "class-be",
+  "version": "1.0.0",
+  "description": "深大辅导员课程教务小程序(荔课)后端。",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/serve.js",
+    "precommit": "tslint -c ./tslint.json -p . --fix"
+  },
+  "author": "zlcatwu<zlcatwu@163.com>",
+  "license": "GPL",
+  "dependencies": {
+    "jsonwebtoken": "^8.2.1",
+    "koa": "^2.5.1",
+    "koa-body": "^2.5.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static-cache": "^5.1.2",
+    "koa-validate": "^1.0.7",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.8"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^7.2.7",
+    "@types/koa": "^2.0.45",
+    "@types/koa-morgan": "^1.0.4",
+    "@types/koa-router": "^7.0.28",
+    "@types/sequelize": "^4.27.20",
+    "reflect-metadata": "^0.1.12",
+    "sequelize-typescript": "^0.6.4",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
